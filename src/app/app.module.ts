@@ -3,6 +3,7 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 import { AppComponent } from './app.component';
 import { InBaseComponent } from './in-base/in-base.component';
 import { ExBaseComponent } from './ex-base/ex-base.component';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 import { LoginComponent } from './login/login.component';
 
 @NgModule({
@@ -14,6 +15,7 @@ import { LoginComponent } from './login/login.component';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule
   ],
   providers: [
     provideClientHydration()

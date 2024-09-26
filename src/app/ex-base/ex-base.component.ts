@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './ex-base.component.scss'
 })
 export class ExBaseComponent {
-
+title='Ex Base Component'
 }
